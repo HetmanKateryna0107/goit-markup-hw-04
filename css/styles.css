@@ -52,6 +52,7 @@ img{
     --text-footer-color: #E7E9FC;
     --subtle-text-color: #FFFFFF;
     --light-color: #F4F4FD;
+    --success-color: #31D0AA;
 }
 
 .section{
@@ -186,7 +187,7 @@ img{
         padding-bottom: 188px;
         padding-left: 0;
         padding-right: 0;
-        width: 1440px;
+        max-width: 1440px;
 }
 .main-title {
        font-family: 'Roboto', 'sens-serif';
@@ -356,12 +357,12 @@ box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08)
          .company-list-link:focus{
 border-color: var(--pressed-state-color);
 
-         }
-        .company-list-link:hover .company-list-icon
-          .company-list-link:focus .company-list-icon{
-            fill: var(--pressed-state-color);
 
-                 }
+         }
+           .company-list-link:hover .company-list-icon,
+           .company-list-link:focus .company-list-icon{
+            fill:var(--primaru-brand-color);
+           }
 /* =====================================================footer =====================================================*/
 
 .text-footer {
@@ -405,7 +406,10 @@ border-color: var(--pressed-state-color);
     gap: 120px;
 
 }
-
+.footer-social-list-link:hover ,
+.footer-social-list-link:focus {
+background-color: var(--success-color);
+}
 .text-footer-socil{
   
 font-family: 'Roboto', 'sens-serif';
