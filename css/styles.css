@@ -1,3 +1,15 @@
+:root {
+  --primaru-brand-color: #4d5ae5;
+  --subtle-text: #8e8f99;
+  --pressed-state-color: #404bbf;
+  --dark-color: #2e2f42;
+  --text-color: #434455;
+  --text-footer-color: #e7e9fc;
+  --subtle-text-color: #ffffff;
+  --light-color: #f4f4fd;
+  --success-color: #31d0aa;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -43,18 +55,6 @@ img {
 /*===================================================== hader===================================================== */
 
 /* nav */
-
-:root {
-  --primaru-brand-color: #4d5ae5;
-  --subtle-text: #8e8f99;
-  --pressed-state-color: #404bbf;
-  --dark-color: #2e2f42;
-  --text-color: #434455;
-  --text-footer-color: #e7e9fc;
-  --subtle-text-color: #ffffff;
-  --light-color: #f4f4fd;
-  --success-color: #31d0aa;
-}
 
 .section {
   padding-top: 120px;
@@ -218,10 +218,12 @@ img {
 .icon {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-bottom: 8px;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  width: 264px;
+  height: 112px;
   background-color: var(--light-color);
+  border-radius: 4px;
 }
 .hide {
   display: none;
@@ -459,9 +461,6 @@ img {
   color: var(--subtle-text-color);
   background-color: var(--pressed-state-color);
 }
-/* .struktur-link:hover,
-.struktur-link:focus {
-  */
 
 .portfolio-img-pad {
   padding-top: 96px;
